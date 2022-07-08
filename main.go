@@ -8,6 +8,8 @@ import "taogin/core"
 //go:generate go mod vendor
 
 func main() {
-	// run
+	//viper
+	core.Viper()
+	//run
 	core.ServerRun()
 }
