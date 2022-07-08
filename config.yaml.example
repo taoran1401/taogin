@@ -1,0 +1,4 @@
+app:
+  app-name: taogin-demo
+  debug: true
+  port: 8088
