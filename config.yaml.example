@@ -2,3 +2,13 @@ app:
   app-name: taogin-demo
   debug: true
   port: 8088
+zap:
+  level: debug
+  prefix: '[taogin]'
+  format: console
+  director: runtime/log
+  encode-level: LowercaseColorLevelEncoder
+  stacktrace-key: stacktrace
+  max-age: 30
+  show-line: true
+  log-in-console: true
