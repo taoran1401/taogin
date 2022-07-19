@@ -1,6 +1,7 @@
 package main
 
 import (
+	"fmt"
 	"taogin/config"
 	"taogin/core"
 )
@@ -17,6 +18,7 @@ func main() {
 	config.TAO_LOG = core.Zap()
 	//gorm连接数据库
 
+	fmt.Println(config.TAO_SERVER.Zap.Director)
 	//run
 	core.ServerRun()
 }
